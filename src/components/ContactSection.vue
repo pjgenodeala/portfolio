@@ -46,23 +46,28 @@
             <div
             style="background: #111a3e; width: 100%;height: 100%; border-radius: 20px;
             overflow: hidden;border: 1px solid #111a3e;backdrop-filter: blur(9px);-webkit-backdrop-filter: blur(9px);">
-            <form class="flex flex-col p-2" data-aos="zoom-in-up" >
+            <form
+            action="https://formspree.io/f/xoveywle"
+            method="POST"
+            class="flex flex-col p-2" data-aos="zoom-in-up" >
                 <div class="mb-6">
                     <label for="email" class="text-white block mb-2 text-sm font-medium">email</label>
                     <input type="email" id="email" class="bg-[#111827] placeholder:[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                    placeholder="email@gmail.com" name="email">
+                    placeholder="email@gmail.com" required />
                 </div>
                 <div class="mb-6">
                     <label for="subject" class="text-white block mb-2 text-sm font-medium">Subject</label>
                     <input type="subject" id="subject" class="bg-[#111827] placeholder:[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                    placeholder="subject" name="subject">
+                    placeholder="subject" required />
                 </div>
                 <div class="mb-6">
                     <label for="message" class="text-white block mb-2 text-sm font-medium">Message</label>
                     <textarea id="Message" class="bg-[#111827] placeholder:[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
                     placeholder="Let's talk about ... " name="Message"></textarea>
                 </div>
-                <button class="z-1 w-[100%!important] px-6 md:px-7 py-3 rounded-full sm:w-max flex justify-center text-white bg-primary border-2 border-transparent">
+                <button
+                type="submit"
+                class="z-1 w-[100%!important] px-6 md:px-7 py-3 rounded-full sm:w-max flex justify-center text-white bg-primary border-2 border-transparent">
                     Send Message
                 </button>
             </form>

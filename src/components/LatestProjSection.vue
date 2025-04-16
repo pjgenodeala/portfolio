@@ -58,12 +58,21 @@
 </template>
 <script setup>
 import { ref, computed } from 'vue';
+import riptus from '@/assets/riptus.png'
+import writerity from '@/assets/writerity.png'
+import bishuku from '@/assets/bishuku.png'
+import threePortal from '@/assets/3sportal.png'
+import megumi from '@/assets/megumi.png'
+import royalhoney from '@assets/royalhoney.png'
+import adobe from '@/assets/adobe.png' 
+import aic from '@/assets/aic-react.png' 
+
 
 const Projects = ref([
     {
         id: 1,
         category: 'web development',
-        image: 'src/assets/3sportal.png',
+        image: threePortal,
         title: '3sPortal',
         description: 'A modern medical website for easy access to healthcare services. Users can quickly book appointments, find medical information, and connect with professionals. 3sportal enhances patient care with a user-friendly digital platform.',
         technologies: ['react.js', 'CSS', 'Laravel', 'RestAPI', 'Docker'],
@@ -73,7 +82,7 @@ const Projects = ref([
     {
         id: 2,
         category: 'web development',
-        image: 'src/assets/bishuku.png',
+        image: bishuku,
         title: 'Bishuku',
         description: 'This is a modern e-commerce website for premium wigs in Japan. It offers a stylish and comfortable selection for fashion and medical use. The site is designed to provide a smooth, user-friendly shopping experience.',
         technologies: ['WordPress', 'CSS', 'Php', 'FTP', 'Docker'],
@@ -83,7 +92,7 @@ const Projects = ref([
     {
         id: 3,
         category: 'web development',
-        image: 'src/assets/writerity.png',
+        image: writerity,
         title: 'Writerity',
         description: 'An innovative school website offering courses in graphic design and system development. Students can explore creative and technical skills, guided by expert instructors. The platform enhances learning with a user-friendly, engaging digital experience.',
         technologies: ['WordPress', 'CSS', 'Php', 'FTP', 'Docker'],
@@ -93,7 +102,7 @@ const Projects = ref([
     {
         id: 4,
         category: 'web development',
-        image: 'src/assets/riptus.png',
+        image: riptus,
         title: 'Riptus',
         description: 'An innovative advertising agency focused on corporate solutions. We craft impactful campaigns to drive brand growth and success. The platform offers a seamless way to connect with expert strategists and creative professionals.',
         technologies: ['WordPress', 'TailwindCss', 'Php', 'FTP', 'Docker'],
@@ -103,7 +112,7 @@ const Projects = ref([
     {
         id: 5,
         category: 'web development',
-        image: 'src/assets/megumi.png',
+        image: megumi,
         title: 'Megumi',
         description: 'A trusted hospital offering comprehensive healthcare services. Patients can easily access information, book appointments, and connect with doctors. The website provides a smooth, user-friendly experience for enhanced care.',
         technologies: ['Html', 'CSS', 'Php', 'FTP', 'Docker'],
@@ -113,7 +122,7 @@ const Projects = ref([
     {
         id: 6,
         category: 'web development',
-        image: 'src/assets/royalhoney.png',
+        image: royalhoney,
         title: 'Royalhoney',
         description: 'The Royal Honey website showcases its premium quality and natural ingredients. It highlights the health and beauty benefits, providing a user-friendly experience. The site reflects the brand’s excellence and connects customers worldwide.',
         technologies: ['WordPress', 'CSS', 'Php', 'FTP', 'Docker'],
@@ -123,7 +132,7 @@ const Projects = ref([
     {
         id: 7,
         category: 'plugin development',
-        image: 'src/assets/plugins.png',
+        image: adobe,
         title: 'PhotoShop Plugin',
         description: 'The Royal Honey website showcases its premium quality and natural ingredients. It highlights the health and beauty benefits, providing a user-friendly experience. The site reflects the brand’s excellence and connects customers worldwide.',
         technologies: ['react.js', 'tailwindcss', 'UXP', 'PhotoShop'],
@@ -133,7 +142,7 @@ const Projects = ref([
     {
         id: 8,
         category: 'web development',
-        image: 'src/assets/aic-react.png',
+        image: aic,
         title: 'Aic-React',
         description: 'The Royal Honey website showcases its premium quality and natural ingredients. It highlights the health and beauty benefits, providing a user-friendly experience. The site reflects the brand’s excellence and connects customers worldwide.',
         technologies: ['react.js', 'tailwindcss', 'GraphQl', 'Mysql', 'knex'],
