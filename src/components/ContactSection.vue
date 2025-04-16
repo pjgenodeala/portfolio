@@ -48,6 +48,8 @@
             overflow: hidden;border: 1px solid #111a3e;backdrop-filter: blur(9px);-webkit-backdrop-filter: blur(9px);">
             <form
             action="https://formspree.io/f/xoveywle"
+            @submit.prevent="submitForm"
+            ref="contactForm"
             method="POST"
             class="flex flex-col p-2" data-aos="zoom-in-up" >
                 <div class="mb-6">
@@ -79,5 +81,13 @@
     </section>
 </template>
 <script>
-
+export default {
+    methods:{
+        submitForm(){
+            const form = this.$refs.contactForm;
+            form.submit();
+            form.reset();
+        }
+    }
+}
 </script>
