@@ -39,7 +39,7 @@
                                 </svg>
                                 <div class="download-loader text-white hidden"></div>
                             </div>
-                            <a href="/resume.pdf" download="resume.pdf" class="pl-2 text-primary"> Download resume</a>
+                            <a href="https://username.github.io/portfolio/resume.pdf" download="resume.pdf" class="pl-2 text-primary"> Download resume</a>
                             </div>
                         </button>
                     </div>
